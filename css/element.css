@@ -1,0 +1,740 @@
+/*
+=================================================
+=========            GENERAL            =========
+=================================================
+
+[BODY]
+Set the font family, make the body take up 100%
+screen width and apply no outside margin.
+*/
+
+
+body {
+  font-family: 'Cardo', serif;
+  width: 100%;
+  margin: 0;
+}
+
+/*
+[PADDING]
+Padding rules to apply to elements
+*/
+
+.padding {
+  padding: 5% !important;
+}
+
+.padding-vertical {
+  padding: 5% 0% 5% 0%;
+}
+
+.padding-horizontal {
+  padding: 0% 5% 0% 5%;
+}
+
+.padding-small {
+  padding: 2%;
+}
+
+.padding-vertical-small {
+  padding: 2% 0% 2% 0%;
+}
+
+.padding-horizontal-small {
+  padding: 0% 2% 0% 2%;
+}
+
+/*
+[MARGIN]
+Margin rules to apply to elements
+*/
+
+.margin {
+  margin: 5%;
+}
+
+.margin-vertical {
+  margin: 5% 0% 5% 0%;
+}
+
+.margin-horizontal {
+  margin: 0% 5% 0% 5%;
+}
+
+.margin-vertical-large {
+  margin: 8% 0% 8% 0%;
+}
+
+.margin-small {
+  margin: 2%;
+}
+
+.margin-vertical-small {
+  margin: 2% 0% 2% 0%;
+}
+
+.margin-horizontal-small {
+  margin: 0% 2% 0% 2%;
+}
+
+.margin-top {
+  margin-top: 5%;
+}
+
+.margin-bottom {
+  margin-bottom: 5%;
+}
+
+.margin-right {
+  margin-right: 5%;
+}
+
+.margin-right-small {
+  margin-right: 2%;
+}
+
+.margin-left {
+  margin-left: 5%;
+}
+
+.margin-left-small {
+  margin-left: 2%;
+}
+
+.margin-remove {
+  margin: 0 !important;
+}
+
+/*
+[TEXT-ALIGN]
+Align text within elements.
+*/
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/*
+=================================================
+=========           TEXT INPUT          =========
+=================================================
+*/
+
+input[type=text] {
+  min-height: 48px;
+  min-width: 300px;
+  padding: 0 23px 0 23px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  border-radius: 4px;
+  border: 2px solid #5B5B5B;
+}
+
+/*
+=================================================
+=========           FLEX GRID           =========
+=================================================
+
+[CONTAINER]
+The container is the parent element of each row
+and designates the width of child row. This will
+usually be 100% but overwrite with your own CSS.
+*/
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*
+[ROW]
+The rows are nested within the containers. The row
+holds nested columns. This tells the row to wrap
+the content at the start of the row. Negative margin
+is to offset against the gutter applied to the columns
+*/
+
+.grid-row {
+  display: flex;
+  margin: 0 0 0 -.5rem
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.left-content {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-content {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/*
+[COLUMN]
+Columns hold your content and are set to automatically
+fill up an equal width in the row no matter how many
+columns. Each column has padding applied to give it a
+gutter between elements. You can also specify specific
+widths in multiples of 10%. If you specify a width for
+a column you can still place the default columns along-
+side it and they will take up the remaining space.
+*/
+
+.grid-col {
+  display: block;
+  flex: 1;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-10 {
+  flex: none;
+  width: 10%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-20 {
+  flex: none;
+  width: 20%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-30 {
+  flex: none;
+  width: 30%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-40 {
+  flex: none;
+  width: 40%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-50 {
+  flex: none;
+  width: 50%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-60 {
+  flex: none;
+  width: 60%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-70 {
+  flex: none;
+  width: 70%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-80 {
+  flex: none;
+  width: 80%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-90 {
+  flex: none;
+  width: 90%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+/*
+[FLEX ITEM POSITIONING]
+You can position individual elements within flexbox
+columns. Apply the following classes to the indivi-
+dual element
+*/
+
+.flex-item-right {
+  margin-left: auto;
+  display: flex;
+}
+
+.flex-item-left {
+  margin-right: auto;
+  display: flex;
+}
+
+/*
+[MEDIA QUERIES]
+To make the flex grid look good on mobile we change the
+row flex direction to column to stack the columns
+vertically on devices smaller than 501px.
+*/
+
+@media screen and ( max-width: 500px ) {
+.grid-row {
+  flex-direction: column;
+  }
+}
+
+/*
+=================================================
+=========          TEXT SIZING          =========
+=================================================
+
+[RESPONSIVE TEXT]
+Instead of using lots of CSS rules with media queries
+to size the text you can use a calc function to have
+it dynamically respond to the width of the viewport.
+If you want to change the size range, change the px
+value and the first number in the first set of
+brackets below.
+*/
+
+p {
+  font-size: calc(14px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+  color: #171717;
+  font-family: 'Cardo', serif;
+}
+
+li {
+  font-size: calc(13px + (13 - 11) * ((100vw - 300px) / (1600 - 300)));
+  color: #171717;
+  font-family: 'Cardo', serif;
+}
+
+/*
+Because the font size is dictated with our calculation above
+you can set the header sizes as em unit and they will dynamically
+scale to the font size.
+*/
+
+h1 {
+  font-size: calc(35px + (35 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 700;
+  margin: 1.5% 0 1.5% 0;
+  color: #171717;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-size: calc(25px + (25 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 600;
+  margin: 1.5% 0 1.5% 0;
+  color: #171717;
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  font-size: calc(25px + (25 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  color: #171717;
+  font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+  font-size: calc(20px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  color: #171717;
+  font-family: 'Oswald', sans-serif;
+}
+
+h5 {
+  font-size: calc(18px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  color: #171717;
+  font-family: 'Oswald', sans-serif;
+}
+
+h6 {
+  font-size: calc(16px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  color: #171717;
+  font-family: 'Oswald', sans-serif;
+}
+
+/*
+The above rules look great on any device above 500px but
+its advised that you apply your own mobile sizes with
+media queries for mobile viewports.
+*/
+
+/*
+=================================================
+=========            BUTTONS            =========
+=================================================
+
+All buttons are set to match the width of the link TEXT
+with some extra padding for space within the button.
+Simply add a set width to the styles to designate your
+own width.
+*/
+
+.btn-primary {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  background-color: #514A9D;
+  border-radius: 4px;
+  color: #FFFFFF;
+  border: 2px solid transparent;
+  padding: 13px 23px 13px 23px;
+  text-transform: uppercase;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  min-height: 50px;
+  min-width: 150px;
+}
+
+.btn-secondary {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 0;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 3px solid #05386B;
+  color: #05386B;
+  padding: 13px 23px 13px 23px;
+  text-transform: uppercase;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  min-height: 50px;
+  min-width: 150px;
+}
+
+/*
+Apply the following modifiers to your buttons for
+full width, rounded or square elements.
+*/
+
+.fw {
+  width: 100%;
+}
+
+.rounded {
+  border-radius: 50px;
+}
+
+.square {
+  border-radius: 0px;
+}
+
+/*
+Default buttons come with a cursor hover css
+transition. This can be turned off with the 'no-hover'
+class modifier. Please note there is a no-hover class
+for primary buttons and another for secondary.
+*/
+
+.btn-primary:hover {
+  background-color: transparent;
+  border: 2px solid #514A9D;
+  color: #514A9D;
+  padding: 13px 23px 13px 23px;
+}
+
+.btn-secondary:hover {
+  background-color: #05386B;
+  border: 3px solid transparent;
+  color: #5CDB95;
+  padding: 13px 23px 13px 23px;
+}
+
+.no-hover-primary:hover {
+  background-color: #514A9D;
+  border: none;
+  color: #FFF;
+  padding: 15px 25px 15px 25px;
+}
+
+.no-hover-secondary:hover {
+  background-color: transparent;
+  border: 2px solid #514A9D;
+  color: #514A9D;
+  padding: 13px 23px 13px 23px;
+}
+
+/*
+=================================================
+=========         NAVIGATION BAR        =========
+=================================================
+
+Element has a navigation bar template. You can center
+links to the left, center or right of the container
+element. The navigation bar has a logo included in
+line with industry standard placement. The navigation
+bar is responsive and will be hidden on mobile viewports.
+*/
+
+.nav-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 2% 0 2%;
+}
+
+/* For images */
+
+.nav-logo {
+  display: inline-block;
+}
+
+/*
+For links (li elements contained in a ul)
+Note: Ensure the height and line height match
+to make the <a> 100% of the container.
+*/
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #FFF;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+}
+
+.nav-item a:hover {
+  background-color: #FFF;
+  color: #42e695;
+  display: inline-block;
+}
+
+.nav-container ul {
+  margin: 0;
+  min-height: 100%;
+}
+
+.nav-container ul>li {
+  min-height: 100%;
+}
+
+/*
+Nav child elements are ordered using the following rules
+appearing in order from left to right of the containers*/
+
+.item-1 {
+  order: 1;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+}
+
+.item-2 {
+  order: 2;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+}
+
+.item-3 {
+  order: 3;
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+}
+
+/*
+=================================================
+=========              HERO             =========
+=================================================
+
+[HERO]
+The hero section goes at the top of the page and
+contains the navigation elements and a header <h1>.
+*/
+
+.hero {
+  background: linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
+  text-align: center;
+  color: #fff;
+}
+
+.hero-row {
+  height: 300px;
+}
+
+/*
+=================================================
+=========            JUMBOTRON          =========
+=================================================
+
+[JUMBOTRON]
+The jumbotron element contains a primary call to action
+with a description of the outcome, a text input and
+a CTA button.
+
+The element is contained with a div with the jumbotron
+class. This element contains a drop shadow.
+*/
+
+.jumbotron {
+  width: 70%;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+  border-radius: 18px;
+  background-color: #FFF;
+}
+
+/*
+=================================================
+=========             FOOTER            =========
+=================================================
+
+[FOOTER]
+Footer container to hold footer elements.
+*/
+
+.footer {
+  background-color: #171717;
+}
+
+.footer p {
+  font-size: calc(13px + (13 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: #FFF;
+}
+
+.footer h4 {
+  color: #FFF;
+}
+
+.footer-favicon a {
+  color: #FFF;
+}
+
+.footer-favicon a:hover {
+  color: #A5A5A5;
+}
+
+.footer ul>li>a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.footer ul>li>a:hover {
+  font-weight: bold;
+}
+
+.footer ul>li {
+  list-style-type: none;
+  margin: 2% 0 2% 0;
+}
+
+.footer ul {
+  padding: 0px;
+}
+
+/*
+=================================================
+=========             MODAL             =========
+=================================================
+
+[MODAL]
+Modal pop up dialog box
+*/
+
+.modal-container {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.modal {
+  opacity: 1;
+  width: 70%;
+  position: relative;
+  margin: 15% auto;
+  background-color: #FFF;
+  border-radius: 18px;
+}
+
+.modal-left {
+  background-color: #24C6DC;
+  border-radius: 18px 0 0 18px;
+  margin: 0px;
+}
+
+.modal-right {
+  padding: 5% 5% 2% 5%;
+}
+
+.modal-right button {
+  min-width: 0px !important;
+}
+
+/*
+=================================================
+=========           SEARCH BAR          =========
+=================================================
+
+[SEARCH BAR]
+Search bar for use in navigation elements.
+input[type=text]
+*/
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  min-height: 48px;
+  min-width: 300px;
+  padding: 0 23px 0 23px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #24C6DC;
+  margin-right: 0px;
+  float: left;
+}
+
+.search-icon {
+  background-color: #24C6DC;
+  height: 48px;
+  width: 48px;
+  margin-left: 0px;
+  border: none;
+  float: left;
+  border-radius: 0 4px 4px 0;
+}
