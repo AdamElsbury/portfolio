@@ -81,6 +81,10 @@ Margin rules to apply to elements
   margin-top: 5%;
 }
 
+.margin-top-large {
+  margin-top: 8%;
+}
+
 .margin-bottom {
   margin-bottom: 5%;
 }
@@ -532,8 +536,7 @@ to make the <a> 100% of the container.
 }
 
 .nav-item a:hover {
-  background-color: #FFF;
-  color: #42e695;
+  color: #FFF;
   display: inline-block;
 }
 

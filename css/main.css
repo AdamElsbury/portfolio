@@ -6,8 +6,9 @@
 
 .nav-container a {
   color: #05386B;
-  text-decoration: none;
   font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
+  text-decoration: none;
 }
 
 /*
@@ -19,6 +20,10 @@
 header {
   background-color: #5CDB95;
   min-height: 400px;
+  max-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
 header h1,h2 {
@@ -30,6 +35,17 @@ header p {
   color: #FFF;
 }
 
+.over-circle {
+  position: relative;
+  z-index: 3;
+}
+
+.over-circle-2 {
+  padding: 5% 10% 10% 5%;
+  position: relative;
+  z-index: 3;
+}
+
 /*
 =================================================
 =========            BORDERS            =========
@@ -38,4 +54,43 @@ header p {
 
 .border-left-blue {
   border-left: 4px solid #05386B;
+}
+
+/*
+=================================================
+=========            VECTORS            =========
+=================================================
+*/
+
+@media screen and ( max-width: 760px ) {
+  .circle {
+    max-height: 590px;
+    max-width: 590px;
+  }
+}
+
+.circle {
+  position: absolute;
+  right: -200px;
+  bottom: -250px;
+  width: 700px;
+  height: 700px;
+  background: #FFF;
+  -moz-border-radius: 350px;
+  -webkit-border-radius: 350px;
+  border-radius: 350px;
+  z-index: 2;
+}
+
+/*
+=================================================
+=========           IMG & SVG           =========
+=================================================
+*/
+
+.svg-fit {
+  max-width: 80%;
+  width: auto;
+  height: auto;
+  max-height: 80%;
 }
