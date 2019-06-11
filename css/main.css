@@ -26,7 +26,12 @@ header {
   z-index: 1;
 }
 
-header h1,h2 {
+.header-content > h1 {
+  color: #FFF;
+  font-weight: 700;
+}
+
+.header-content > h2 {
   color: #FFF;
   font-weight: 700;
 }
@@ -88,9 +93,23 @@ header p {
 =================================================
 */
 
-.svg-fit {
+.svg-fit-hero {
   max-width: 80%;
   width: auto;
   height: auto;
   max-height: 80%;
 }
+
+.svg-fit-standard {
+  max-width: 20%;
+  width: auto;
+  height: auto;
+  max-height: 20%;
+  color: #5CDB95;
+}
+
+/*
+=================================================
+=========             TEXT              =========
+=================================================
+*/

@@ -330,18 +330,18 @@ scale to the font size.
 */
 
 h1 {
+  color: #05386B;
   font-size: calc(35px + (35 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 700;
   margin: 1.5% 0 1.5% 0;
-  color: #171717;
   font-family: 'Oswald', sans-serif;
 }
 
 h2 {
+  color: #05386B;
   font-size: calc(25px + (25 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 600;
   margin: 1.5% 0 1.5% 0;
-  color: #171717;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -367,9 +367,9 @@ h5 {
 }
 
 h6 {
+  color: #05386B;
   font-size: calc(16px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: #171717;
   font-family: 'Oswald', sans-serif;
 }
 
