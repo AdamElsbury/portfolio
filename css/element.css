@@ -346,9 +346,9 @@ h2 {
 }
 
 h3 {
-  font-size: calc(25px + (25 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(22px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: #171717;
+  color: #05386B;
   font-family: 'Oswald', sans-serif;
 }
 

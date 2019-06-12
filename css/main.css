@@ -63,6 +63,15 @@ header p {
 
 /*
 =================================================
+=========            SECTIONS           =========
+=================================================
+*/
+
+.skills-technology-section {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+/*
+=================================================
 =========            VECTORS            =========
 =================================================
 */
@@ -78,12 +87,12 @@ header p {
   position: absolute;
   right: -200px;
   bottom: -250px;
-  width: 700px;
-  height: 700px;
+  width: 800px;
+  height: 800px;
   background: #FFF;
-  -moz-border-radius: 350px;
-  -webkit-border-radius: 350px;
-  border-radius: 350px;
+  -moz-border-radius: 400px;
+  -webkit-border-radius: 400px;
+  border-radius: 400px;
   z-index: 2;
 }
 
@@ -108,8 +117,36 @@ header p {
   color: #5CDB95;
 }
 
+.svg-fit-small {
+  max-width: 15%;
+  width: auto;
+  height: auto;
+  max-height: 15%;
+  color: #5CDB95;
+}
+
 /*
 =================================================
 =========             TEXT              =========
 =================================================
 */
+
+/*
+=================================================
+=========             CARDS             =========
+=================================================
+*/
+
+.role-card {
+  background-color: #FFF;
+  border: 5px solid #5CDB95;
+  border-radius: 22px;
+  box-shadow: 0px 14px 28px 0px rgba(0,0,0,0.16);
+}
+
+.skills-tech-card {
+  background-color: #FFF;
+  border: 5px solid #5CDB95;
+  border-radius: 22px;
+  box-shadow: 0px 14px 28px 0px rgba(0,0,0,0.16);
+}
