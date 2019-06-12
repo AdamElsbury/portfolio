@@ -24,12 +24,20 @@ Padding rules to apply to elements
   padding: 5% !important;
 }
 
+.padding-large {
+  padding: 8%;
+}
+
 .padding-vertical {
   padding: 5% 0% 5% 0%;
 }
 
 .padding-horizontal {
   padding: 0% 5% 0% 5%;
+}
+
+.padding-horizontal-large {
+  padding: 0% 8% 0% 8%;
 }
 
 .padding-small {
@@ -82,7 +90,7 @@ Margin rules to apply to elements
 }
 
 .margin-top-large {
-  margin-top: 8%;
+  margin-top: 10%;
 }
 
 .margin-bottom {
@@ -214,14 +222,12 @@ side it and they will take up the remaining space.
 .grid-col-20 {
   flex: none;
   width: 20%;
-  padding: .75rem;
   margin: 0 0 .5rem .5rem ;
 }
 
 .grid-col-30 {
   flex: none;
   width: 30%;
-  padding: .75rem;
   margin: 0 0 .5rem .5rem ;
 }
 
@@ -313,13 +319,13 @@ brackets below.
 
 p {
   font-size: calc(14px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
-  color: #171717;
+  color: #333333;
   font-family: 'Cardo', serif;
 }
 
 li {
   font-size: calc(13px + (13 - 11) * ((100vw - 300px) / (1600 - 300)));
-  color: #171717;
+  color: #333333;
   font-family: 'Cardo', serif;
 }
 

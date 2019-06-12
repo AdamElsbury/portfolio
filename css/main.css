@@ -1,5 +1,15 @@
 /*
 =================================================
+=========            GENERAL            =========
+=================================================
+*/
+
+.inline-block {
+  display: inline-block;
+}
+
+/*
+=================================================
 =========            NAVBAR             =========
 =================================================
 */
@@ -70,6 +80,14 @@ header p {
 .skills-technology-section {
   background-color: rgba(0, 0, 0, 0.04);
 }
+
+.projects {
+  background-color: #0FA3B1;
+}
+
+.projects h2 {
+  color: #FFF;
+}
 /*
 =================================================
 =========            VECTORS            =========
@@ -109,6 +127,14 @@ header p {
   max-height: 80%;
 }
 
+.svg-fit-large {
+  max-width: 30%;
+  width: auto;
+  height: auto;
+  max-height: 80px;
+  color: #5CDB95;
+}
+
 .svg-fit-standard {
   max-width: 20%;
   width: auto;
@@ -125,12 +151,27 @@ header p {
   color: #5CDB95;
 }
 
+.svg-link {
+  max-width: 6%;
+  width: auto;
+  height: auto;
+  max-height: 6%;
+  color: #5CDB95;
+}
+
 /*
 =================================================
 =========             TEXT              =========
 =================================================
 */
 
+.grey-text {
+  color: #707070;
+}
+
+.blue-text {
+  color: #05386B !important;
+}
 /*
 =================================================
 =========             CARDS             =========
@@ -149,4 +190,26 @@ header p {
   border: 5px solid #5CDB95;
   border-radius: 22px;
   box-shadow: 0px 14px 28px 0px rgba(0,0,0,0.16);
+  overflow: hidden;
+}
+
+.skills-tech-card li {
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.skills-tech-card h3 {
+  color: #FFF;
+}
+
+.skills-tech-card-header {
+  border-radius: 5px 5px 0px 0px;
+  background-color: #5CDB95;
+  margin: 0px !important;
+  top: 0;
+  width: 100%;
+}
+
+.skills-tech-card-content {
+  padding: 10%;
 }
