@@ -52,6 +52,16 @@ Padding rules to apply to elements
   padding: 0% 2% 0% 2%;
 }
 
+.padding-bottom {
+  padding-bottom: 5%;
+}
+
+/* Used to offset the automatic col-gutters */
+
+.gutter-offset {
+  padding-top: 8px;
+}
+
 /*
 [MARGIN]
 Margin rules to apply to elements
