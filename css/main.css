@@ -145,6 +145,17 @@ header p {
   background-color: #5CDB95;
   position: relative;
 }
+
+/* Footer */
+
+.footer {
+  background-color: #514A9D;
+}
+
+footer a {
+  text-decoration: none;
+  color: #5CDB95;
+}
 /*
 =================================================
 =========            VECTORS            =========

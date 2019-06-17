@@ -702,7 +702,7 @@ Footer container to hold footer elements.
 }
 
 .footer p {
-  font-size: calc(13px + (13 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(13px + (13 - 11) * ((100vw - 300px) / (1600 - 300)));
   color: #FFF;
 }
 
