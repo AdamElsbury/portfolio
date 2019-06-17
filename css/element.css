@@ -234,10 +234,16 @@ side it and they will take up the remaining space.
   margin: 0 0 .5rem .5rem ;
 }
 
-.grid-flex {
+.grid-flex-end {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.grid-flex-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .grid-col-10 {
@@ -524,6 +530,17 @@ Color modifiers for the btns.
   background-color: #FFF;
   border: 3px solid transparent;
   color: #514A9D;
+}
+
+.btn-green {
+  border: 3px solid #5CDB95;
+  color: #5CDB95;
+}
+
+.btn-green:hover {
+  background-color: #5CDB95;
+  border: 3px solid transparent;
+  color: #293347;
 }
 
 /*

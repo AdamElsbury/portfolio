@@ -12,6 +12,9 @@
   display: block;
 }
 
+.padding-overlap-parent {
+  padding: 5% 5% 13% 5%;
+}
 /*
 =================================================
 =========            NAVBAR             =========
@@ -104,6 +107,7 @@ header p {
 
 .projects-2 {
   background-color: #514A9D;
+  position: relative;
 }
 
 .projects h2 {
@@ -120,8 +124,24 @@ header p {
 .resume {
   background-color: #293347;
   border-radius: 22px;
-  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 0 0 1px #293347;  margin: 0 auto;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 0 0 1px #293347;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   width: 60%;
+  bottom: -125px;
+  position: absolute;
+}
+
+.resume h3 {
+  font-weight: normal;
+}
+
+/* About me */
+
+.about-me {
+  background-color: #5CDB95;
 }
 /*
 =================================================
@@ -175,8 +195,15 @@ header p {
   width: auto;
   height: auto;
   max-height: 80px;
-
 }
+
+.svg-fit-60 {
+  max-width: 60%;
+  width: auto;
+  height: auto;
+  max-height: 80px;
+}
+
 
 .svg-fit-standard {
   max-width: 20%;
@@ -202,6 +229,13 @@ header p {
   color: #5CDB95;
 }
 
+.profile-rounded {
+  max-width: 20%;
+  width: auto;
+  height: auto;
+  border: 5px solid #05386B;
+  border-radius: 22px;
+}
 
 /*
 =================================================
