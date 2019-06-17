@@ -234,6 +234,12 @@ side it and they will take up the remaining space.
   margin: 0 0 .5rem .5rem ;
 }
 
+.grid-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .grid-flex-end {
   display: flex;
   align-items: center;
@@ -244,6 +250,10 @@ side it and they will take up the remaining space.
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.flex-direction-column {
+  flex-direction: column;
 }
 
 .grid-col-10 {
