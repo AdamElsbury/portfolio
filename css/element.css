@@ -107,6 +107,10 @@ Margin rules to apply to elements
   margin-bottom: 5%;
 }
 
+.margin-bottom-small {
+  margin-bottom: 2%;
+}
+
 .margin-right {
   margin-right: 5%;
 }
@@ -144,6 +148,14 @@ Align text within elements.
   text-align: right;
 }
 
+/*
+[WIDTH]
+Apply specific width to elements.
+*/
+
+.width-80 {
+  width: 80%;
+}
 /*
 =================================================
 =========           TEXT INPUT          =========

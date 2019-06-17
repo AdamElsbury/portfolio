@@ -72,7 +72,11 @@ header p {
 */
 
 .border-left-blue {
-  border-left: 4px solid #05386B;
+  border-left: 6px solid #05386B;
+}
+
+.border-left-white {
+  border-left: 6px solid #FFF;
 }
 
 /*
@@ -80,6 +84,8 @@ header p {
 =========            SECTIONS           =========
 =================================================
 */
+
+/* Skills */
 
 .skills-technology-section {
   background-color: rgba(0, 0, 0, 0.04);
@@ -89,9 +95,12 @@ header p {
   background-color: #0FA3B1;
 }
 
+/* Projects */
+
 .projects h2 {
   color: #FFF;
 }
+
 /*
 =================================================
 =========            VECTORS            =========
@@ -139,6 +148,14 @@ header p {
   color: #5CDB95;
 }
 
+.svg-fit-25 {
+  max-width: 25%;
+  width: auto;
+  height: auto;
+  max-height: 80px;
+
+}
+
 .svg-fit-standard {
   max-width: 20%;
   width: auto;
@@ -177,6 +194,25 @@ header p {
 .blue-text {
   color: #05386B !important;
 }
+
+.white-text {
+  color: #FFF;
+}
+
+.block-tag {
+  background-color: #333333;
+  border-radius: 8px;
+  color: #FFF;
+  margin-right: 0.5%;
+  min-width: 100px;
+  padding: 0.5%;
+  text-align: center;
+}
+
+.block-tag-text {
+  font-weight: normal;
+}
+
 /*
 =================================================
 =========             CARDS             =========
