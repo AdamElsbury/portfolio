@@ -91,16 +91,38 @@ header p {
   background-color: rgba(0, 0, 0, 0.04);
 }
 
+/* Projects */
+
 .projects {
   background-color: #0FA3B1;
 }
 
-/* Projects */
+.projects button:hover {
+  color: #0FA3B1;
+}
+
+
+.projects-2 {
+  background-color: #514A9D;
+}
 
 .projects h2 {
   color: #FFF;
+  margin: 5% 0% 0% 5%;
 }
 
+.projects-2 h3 {
+  color: #FFF !important;
+}
+
+/* Resume */
+
+.resume {
+  background-color: #293347;
+  border-radius: 22px;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 0 0 1px #293347;  margin: 0 auto;
+  width: 60%;
+}
 /*
 =================================================
 =========            VECTORS            =========

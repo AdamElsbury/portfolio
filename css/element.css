@@ -234,6 +234,12 @@ side it and they will take up the remaining space.
   margin: 0 0 .5rem .5rem ;
 }
 
+.grid-flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .grid-col-10 {
   flex: none;
   width: 10%;
@@ -256,7 +262,6 @@ side it and they will take up the remaining space.
 .grid-col-40 {
   flex: none;
   width: 40%;
-  padding: .75rem;
   margin: 0 0 .5rem .5rem ;
 }
 
@@ -270,7 +275,6 @@ side it and they will take up the remaining space.
 .grid-col-60 {
   flex: none;
   width: 60%;
-  padding: .75rem;
   margin: 0 0 .5rem .5rem ;
 }
 
@@ -505,6 +509,21 @@ for primary buttons and another for secondary.
   border: 2px solid #514A9D;
   color: #514A9D;
   padding: 13px 23px 13px 23px;
+}
+
+/*
+Color modifiers for the btns.
+*/
+
+.btn-white {
+  border: 3px solid #FFF;
+  color: #FFF;
+}
+
+.btn-white:hover {
+  background-color: #FFF;
+  border: 3px solid transparent;
+  color: #514A9D;
 }
 
 /*
