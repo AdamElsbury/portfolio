@@ -19,10 +19,11 @@
   <nav class="nav-container">
     <a href="#" class="nav-logo">ADAMELSBURY</a>
     <ul class="nav-links">
-      <li class="nav-item"><a href="#whoami">WHO AM I</a></li>
+      <li class="nav-item"><a href="#whatido">WHAT I DO</a></li>
       <li class="nav-item"><a href="#skills">SKILLS & TECH</a></li>
       <li class="nav-item"><a href="#projects">PROJECTS</a></li>
       <li class="nav-item"><a href="#cv">CV</a></li>
+      <li class="nav-item"><a href="#aboutme">ABOUT ME</a></li>
       <li class="nav-item"><a href="#contact">CONTACT</a></li>
     </ul>
   </nav>
@@ -32,7 +33,7 @@
       <h1 class="margin-top-large">HI, I'M ADAM ELSBURY</h1>
       <h2>I MAKE WEBSITES.</h2>
       <p class="margin-vertical-large border-left-blue padding-horizontal">I am a recent Web Design & Development graduate from Southampton Solent Uni. During my degree I have built up two years of freelance experience working on projects alone and within teams. I am currently looking for a role!</p>
-      <button class="btn-secondary square margin-right-small">DOWNLOAD CV</button>
+      <a href="../assets/downloads/cv.pdf" download><button class="btn-secondary square margin-right-small">DOWNLOAD CV</button></a>
       <a href="mailto:adam.john.elsbury@gmail.com"><button class="btn-secondary square">GET IN TOUCH</button></a>
     </article>
 
@@ -47,7 +48,7 @@
 <div class="container">
   <section class="grid-row">
     <div class="grid-col"></div>
-    <article class="grid-col-40 text-center">
+    <article class="grid-col-40 text-center" id="whatido">
       <h2 class="margin-top-large">WHAT DO I DO?</h2>
       <img src="../assets/svg/idea.svg" alt="Vector image of a person getting an idea." class="svg-fit-standard margin-vertical-small">
       <p>To put it in one phrase, I make digital solutions. I take a project, identify the problems and pain points, create a solution and develop a digital product with the intention of fulfilling the end users goals.  My focus is within the UX design field but being a new professional I am happy to go into design or development roles. I can currently fill UX, UI design and front end development roles.</p>
@@ -75,7 +76,7 @@
 
 <div class="container skills-technology-section">
   <div class="grid-row padding">
-    <div class="grid-col text-center">
+    <div class="grid-col text-center" id="skills">
     <h2 class="margin-remove">SKILLS AND TECHNOLOGY</h2>
     </div>
   </div>
@@ -167,7 +168,7 @@
 
 <div class="container projects">
   <section class="grid-row">
-    <article class="grid-col">
+    <article class="grid-col" id="projects">
       <h2 class="">PROJECTS</h2>
     </article>
   </section>
@@ -206,12 +207,12 @@
 
   <div class="container resume">
     <section class="grid-row padding">
-        <article class="grid-col-60">
+        <article class="grid-col-60" id="cv">
           <h3 class="white-text">RESUME</h3>
           <p class="white-text">Need more information like work history or education? You'll probably find it in my CV. If anything is missing please feel free to reach out to me!</p>
         </article>
         <article class="grid-col grid-flex-end">
-          <button class="btn-secondary btn-green square">DOWNLOAD PDF</button>
+          <a href="../assets/downloads/cv.pdf" download><button class="btn-secondary btn-green square">DOWNLOAD PDF</button></a>
         </article>
     </section>
   </div>
@@ -221,8 +222,8 @@
   <div class="grid-row padding-large">
     <div class="grid-col"></div>
 
-    <div class="grid-col-40 text-center">
-      <h2 class="margin-top">ABOUT ME</h2>
+    <div class="grid-col-40 text-center" id="aboutme">
+      <h2 class="margin-top-large">ABOUT ME</h2>
       <img src="../assets/svg/profile.png" alt="A small image of Adam Elsbury eating a burger, looking happy" class="profile-rounded margin-vertical-small">
       <p class="white-text">So you've seen my professional credentials, but you want to see if I could fit in with your team. Pro tip - I love burgers. Get to know me!</p>
       <div class="container">
@@ -274,23 +275,23 @@
 
   <div class="container resume">
     <section class="grid-row padding-small">
-        <article class="grid-col grid-flex-center">
+        <article class="grid-col grid-flex-center" id="contact">
           <h3 class="white-text">CONTACT</h3>
         </article>
         <article class="grid-col grid-flex-center flex-direction-column text-center">
           <p class="white-text">Like what you see? Want to talk about a potential project or job opening? Fire over an email:</p>
           <a href="mailto:adam.john.elsbury@gmail.com"><button class="btn-secondary btn-green square">SEND EMAIL</button></a>
         </article>
-        <article class="grid-col grid-flex-end flex-direction-column">
+        <article class="grid-col grid-flex-center flex-direction-column">
           <p class="white-text">Prefer to speak over the phone?</p>
-          <p class="number">07506782509</p>
+          <p class="number margin-remove">07506782509</p>
         </article>
     </section>
   </div>
 </div>
 
-<footer class="container footer">
-  <section class="grid-row padding-large">
+<footer class="container">
+  <section class="grid-row footer">
     <div class="grid-col"></div>
     <article class="grid-col-50 text-center">
       <img src="../assets/svg/chip.svg" alt="A computer chip" class="svg-fit-small margin-top">
