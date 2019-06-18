@@ -163,24 +163,32 @@ footer a {
 =================================================
 */
 
-@media screen and ( max-width: 760px ) {
+.circle {
+  position: absolute;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+width: 50%;
+height: auto;
+padding-top: 50%;
+background: white;
+z-index: 2;
+right: -200px;
+bottom: -300px;
+}
+
+@media screen and ( max-width: 1121px ) {
   .circle {
-    max-height: 590px;
-    max-width: 590px;
+    width: 65%;
+    padding-top: 65%;
   }
 }
 
-.circle {
-  position: absolute;
-  right: -200px;
-  bottom: -250px;
-  width: 800px;
-  height: 800px;
-  background: #FFF;
-  -moz-border-radius: 400px;
-  -webkit-border-radius: 400px;
-  border-radius: 400px;
-  z-index: 2;
+@media screen and ( max-width: 921px ) {
+  .circle {
+    width: 70%;
+    padding-top: 70%;
+  }
 }
 
 /*
