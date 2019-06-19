@@ -165,17 +165,20 @@ footer a {
 
 .circle {
   position: absolute;
-border-radius: 50%;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-width: 55%;
-height: auto;
-padding-top: 55%;
-background: white;
-z-index: 2;
-right: -200px;
-bottom: -300px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 55%;
+  height: auto;
+  padding-top: 55%;
+  background: white;
+  z-index: 2;
+  right: -200px;
+  bottom: -300px;
 }
+
+/* media queries to size the circle on Mobile
+and tablet viewports */
 
 @media screen and ( max-width: 1121px ) {
   .circle {
@@ -338,4 +341,78 @@ bottom: -300px;
 
 .skills-tech-card-content {
   padding: 10%;
+}
+
+/*
+=================================================
+=========             MOBILE            =========
+=================================================
+*/
+
+/* Media queries to make the layout work on mobile */
+
+@media screen and ( max-width: 500px ) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
+
+/*
+=================================================
+=========             HEADER            =========
+=================================================
+*/
+
+/* Changing order of elements in flexbox container */
+
+@media screen and ( max-width: 500px ) {
+.order-1-mobile {
+  order: 1;
+}
+
+.order-2-mobile {
+  order: 2;
+}
+
+.order-3-mobile {
+  order: 3;
+}
+
+.order-4-mobile {
+  order: 4;
+}
+
+.order-5-mobile {
+  order: 5;
+}
+
+/* Change text align for hero SVG */
+
+.over-circle-2 {
+  text-align: center;
+}
+
+/* Make margin smaller on h1 */
+
+header h1 {
+  margin-top: 2% !important;
+}
+}
+
+/*
+=================================================
+=========             IMAGES            =========
+=================================================
+*/
+
+@media screen and ( max-width: 500px ) {
+.svg-fit-25 {
+  max-width: 50%;
+}
+
+.device {
+  max-width: 100%;
+  margin-top: 5%;
+}
 }

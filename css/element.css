@@ -815,3 +815,36 @@ input[type=text]
   float: left;
   border-radius: 0 4px 4px 0;
 }
+
+/*
+=================================================
+=========             MOBILE            =========
+=================================================
+*/
+
+/* ///////////////// LAYOUT ///////////////// */
+
+/* Media queries to make the layout work on mobile */
+
+@media screen and ( max-width: 500px ) {
+  .mobile-hide {
+    display: none;
+  }
+
+  .grid-col-10, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90  {
+    flex: 1;
+    width: auto;
+  }
+}
+
+/* ///////////////// BUTTONS ///////////////// */
+/* Button resizing on mobile */
+
+@media screen and ( max-width: 500px ) {
+  .btn-secondary {
+    font-size: 1em;
+    min-height: 40px;
+    min-width: 120px;
+
+  }
+}
