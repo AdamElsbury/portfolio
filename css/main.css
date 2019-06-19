@@ -261,7 +261,7 @@ and tablet viewports */
   max-width: 20%;
   width: auto;
   height: auto;
-  border: 5px solid #05386B;
+  border: 4px solid #05386B;
   border-radius: 22px;
 }
 
@@ -354,17 +354,21 @@ and tablet viewports */
 
 /* Media queries to make the layout work on mobile */
 
-@media screen and ( max-width: 500px ) {
+@media screen and ( max-width: 700px ) {
   .mobile-hide {
     display: none;
   }
 
   .padding-overlap-parent-top {
-    padding: 5% 5% 35% 5%;
+    padding: 5% 5% 40% 5%;
   }
 
   .padding-overlap-parent-bottom {
     padding: 35% 5% 5% 5%;
+  }
+
+  .padding-overlap-parent-both {
+    padding: 35% 5% 50% 5%;
   }
 
   .resume {
@@ -372,7 +376,7 @@ and tablet viewports */
     text-align: center;
   }
 
-  .grid-flex-end {
+  .grid-flex-end, .grid-flex-start {
     justify-content: center;
   }
 }
@@ -386,7 +390,7 @@ and tablet viewports */
 
 /* Changing order of elements in flexbox container */
 
-@media screen and ( max-width: 500px ) {
+@media screen and ( max-width: 700px ) {
 .order-1-mobile {
   order: 1;
 }
@@ -405,6 +409,18 @@ and tablet viewports */
 
 .order-5-mobile {
   order: 5;
+}
+
+.order-6-mobile {
+  order: 6;
+}
+
+.order-7-mobile {
+  order: 7;
+}
+
+.order-8-mobile {
+  order: 8;
 }
 
 /* Change text align for hero SVG */
@@ -426,7 +442,7 @@ header h1 {
 =================================================
 */
 
-@media screen and ( max-width: 500px ) {
+@media screen and ( max-width: 700px ) {
 .svg-fit-25 {
   max-width: 50%;
 }
@@ -434,5 +450,9 @@ header h1 {
 .device {
   max-width: 100%;
   margin-top: 5%;
+}
+
+.profile-rounded {
+  max-width: 30%;
 }
 }
