@@ -480,12 +480,20 @@ header h1 {
   z-index: 8;
 }
 
+.mobile-nav-overlay hr {
+  color: #eee;
+  border: none;
+  height: 1px;
+  background-color: #fff;
+}
+
 .mobile-nav-overlay ul {
   padding-left: 0px;
 }
 
 .mobile-nav-overlay ul > li{
   margin-bottom: 15px;
+  line-height: 1.4em;
 }
 
 .mobile-nav-container {
