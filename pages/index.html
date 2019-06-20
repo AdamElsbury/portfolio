@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../css/element.css">
   <link rel="stylesheet" href="../css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Cardo|Oswald:400,700&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="../js/main.js"></script>
 </head>
 <body>
 <div class="container">
@@ -30,7 +31,21 @@
 
   <nav class="nav-container desktop-hide">
     <a href="#" class="nav-logo">ADAMELSBURY</a>
-    <img src="../assets/svg/menu.svg" alt="" class="svg-fit-mobile-icon">
+    <button onclick="showMobileMenu()" class="hamburger-button"><img src="../assets/svg/menu.svg" alt="" class="svg-fit-mobile-icon"></button>
+    <section class="mobile-nav-overlay" id="mobilemenu">
+      <img src="../assets/svg/close.svg" alt="" class="svg-fit-mobile-icon mobile-menu-close" onclick="closeMobileMenu()">
+      <article class="mobile-nav-container">
+        <ul>
+          <li><a href="#whatido"><h3>WHAT I DO</h3></a></li>
+          <li><a href="#skills"><h3>SKILLS & TECH</h3></a></li>
+          <li><a href="#projects"><h3>PROJECTS</h3></a></li>
+          <li><a href="#cv"><h3>CV</h3></a></li>
+          <li><a href="#aboutme"><h3>ABOUT ME</h3></a></li>
+          <hr>
+          <li><a href="#contact"><h3>CONTACT</h3></a></li>
+        </ul>
+      </article>
+    </section>
   </nav>
 
   <section class="grid-row">

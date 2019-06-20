@@ -276,13 +276,6 @@ and tablet viewports */
   border-radius: 22px;
 }
 
-.svg-fit-mobile-icon {
-  max-width: 7%;
-  width: auto;
-  height: auto;
-}
-
-
 /*
 =================================================
 =========             TEXT              =========
@@ -455,12 +448,62 @@ header h1 {
 
 /* Mobile navigation menu */
 
-@media screen and ( max-width: 700px ) {
-  .nav-container {
+.hamburger-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  line-height: 1em;
+  display: block;
+}
+
+.svg-fit-mobile-icon {
+  max-width: 100%;
+  max-height: 1em;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.nav-container {
     padding: 5%;
   }
+
+.mobile-nav-overlay {
+  background-color: #333333;
+  display: none;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  z-index: 8;
+}
+
+.mobile-nav-overlay ul {
+  padding-left: 0px;
+}
+
+.mobile-nav-overlay ul > li{
+  margin-bottom: 15px;
+}
+
+.mobile-nav-container {
+  padding: 20%;
+}
+
+.mobile-nav-container h3 {
+  color: white;
+  margin: 0;
+}
+
+.mobile-menu-close {
+  right: 0;
+  top: 0;
+  position: absolute;
+  margin: 10% 10% 0% 0%;
 }
 }
+
 
 /*
 =================================================
