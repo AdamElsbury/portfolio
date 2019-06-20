@@ -21,8 +21,15 @@
 }
 
 .padding-overlap-parent-both {
-  padding: 11% 5% 13% 5%;
+  padding: 10% 5% 13% 5%;
 }
+
+@media screen and ( min-width: 700px ) {
+  .desktop-hide {
+    display: none;
+  }
+}
+
 /*
 =================================================
 =========            NAVBAR             =========
@@ -269,6 +276,11 @@ and tablet viewports */
   border-radius: 22px;
 }
 
+.svg-fit-mobile-icon {
+  max-width: 7%;
+  width: auto;
+  height: auto;
+}
 
 
 /*
@@ -439,6 +451,14 @@ and tablet viewports */
 
 header h1 {
   margin-top: 2% !important;
+}
+
+/* Mobile navigation menu */
+
+@media screen and ( max-width: 700px ) {
+  .nav-container {
+    padding: 5%;
+  }
 }
 }
 
