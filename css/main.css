@@ -454,6 +454,7 @@ header h1 {
   padding: 0;
   line-height: 1em;
   display: block;
+  outline: none;
 }
 
 .svg-fit-mobile-icon {
