@@ -24,7 +24,7 @@
   padding: 10% 5% 13% 5%;
 }
 
-@media screen and ( min-width: 700px ) {
+@media screen and ( min-width: 860px ) {
   .desktop-hide {
     display: none;
   }
@@ -365,7 +365,7 @@ and tablet viewports */
 
 /* Media queries to make the layout work on mobile */
 
-@media screen and ( max-width: 700px ) {
+@media screen and ( max-width: 860px ) {
   .mobile-hide {
     display: none;
   }
@@ -401,7 +401,7 @@ and tablet viewports */
 
 /* Changing order of elements in flexbox container */
 
-@media screen and ( max-width: 700px ) {
+@media screen and ( max-width: 860px ) {
 .order-1-mobile {
   order: 1;
 }
@@ -520,11 +520,19 @@ header h1 {
 =================================================
 */
 
-@media screen and ( max-width: 700px ) {
+@media screen and ( max-width: 460px ) {
 .svg-fit-25 {
   max-width: 50%;
 }
+}
 
+@media (min-width: 461px) and ( max-width: 660px ) {
+.svg-fit-25 {
+  max-width: 35%;
+}
+}
+
+@media screen and ( max-width: 860px ) {
 .device {
   max-width: 100%;
   margin-top: 5%;
@@ -532,5 +540,28 @@ header h1 {
 
 .profile-rounded {
   max-width: 30%;
+}
+}
+
+/*
+=================================================
+=========          SMALL DESKTOP        =========
+=================================================
+*/
+
+/* Media queries to make the layout work on TABLET
+viewports (860px) */
+
+@media screen and ( max-width: 650px ) {
+/* Images */
+
+.svg-fit-hero {
+  max-width: 55%;
+}
+}
+
+@media (min-width: 651px) and ( max-width: 860px ) {
+.svg-fit-hero {
+  width: 45%;
 }
 }

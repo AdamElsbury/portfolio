@@ -339,7 +339,7 @@ row flex direction to column to stack the columns
 vertically on devices smaller than 501px.
 */
 
-@media screen and ( max-width: 700px ) {
+@media screen and ( max-width: 860px ) {
 .grid-row {
   flex-direction: column;
   }
@@ -826,7 +826,7 @@ input[type=text]
 
 /* Media queries to make the layout work on mobile */
 
-@media screen and ( max-width: 700px ) {
+@media screen and ( max-width: 860px ) {
   .mobile-hide {
     display: none;
   }
@@ -840,11 +840,33 @@ input[type=text]
 /* ///////////////// BUTTONS ///////////////// */
 /* Button resizing on mobile */
 
-@media screen and ( max-width: 700px ) {
+@media screen and ( max-width: 860px ) {
   .btn-secondary {
     font-size: 1em;
     min-height: 40px;
     min-width: 120px;
+  }
+}
 
+@media (min-width: 861px) and ( max-width: 1024px ) {
+  .btn-secondary {
+    font-size: 1.1em;
+    min-height: 45px;
+    min-width: 135px;
+  }
+}
+
+/*
+=================================================
+=========             TABLET            =========
+=================================================
+*/
+
+@media (min-width: 660px) and ( max-width: 1024px ) {
+  .margin-vertical-large {
+    margin: 5% 0% 5% 0%;
+  }
+  .margin-top-large {
+    margin-top: 5%;
   }
 }
