@@ -325,19 +325,17 @@ and tablet viewports */
   background-color: #FFF;
   border: 5px solid #5CDB95;
   border-radius: 22px;
-  box-shadow: 0px 14px 28px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.16);
 }
 
 .skills-tech-card {
   background-color: #FFF;
   border: 5px solid #5CDB95;
   border-radius: 22px;
-  box-shadow: 0px 14px 28px 0px rgba(0,0,0,0.16);
-  overflow: hidden;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.16);  overflow: hidden;
 }
 
 .skills-tech-card li {
-  font-weight: bold;
   margin-bottom: 5%;
 }
 
