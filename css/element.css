@@ -33,7 +33,7 @@ Padding rules to apply to elements
 }
 
 .padding-vertical-large {
-  padding: 8% 0% 8% 8%;
+  padding: 8% 0% 0% 8%;
 }
 
 .padding-horizontal {
@@ -63,6 +63,10 @@ Padding rules to apply to elements
   padding-top: 5%;
 }
 
+.padding-top-small {
+  padding-top: 2%;
+}
+
 .padding-right {
   padding-right: 5%;
 }
@@ -73,6 +77,10 @@ Padding rules to apply to elements
 
 .padding-bottom {
   padding-bottom: 5%;
+}
+
+.padding-right-small {
+  padding-right: 2%;
 }
 
 /* Used to offset the automatic col-gutters */
@@ -124,6 +132,10 @@ Margin rules to apply to elements
 
 .margin-top {
   margin-top: 5%;
+}
+
+.margin-top-2rem {
+  margin-top: 2rem;
 }
 
 .margin-top-large {
