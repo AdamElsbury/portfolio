@@ -48,6 +48,10 @@ Padding rules to apply to elements
   padding: 2%;
 }
 
+.padding-mini {
+  padding: 1%;
+}
+
 .padding-vertical-small {
   padding: 2% 0% 2% 0%;
 }
@@ -282,7 +286,6 @@ side it and they will take up the remaining space.
 .grid-col-10 {
   flex: none;
   width: 10%;
-  padding: .75rem;
   margin: 0 0 .5rem .5rem ;
 }
 

@@ -101,6 +101,10 @@ header p {
 .header-2 a:hover {
   color: #05386B;
 }
+
+.header-2 button:hover {
+  color: #0FA3B1;
+}
 /*
 =================================================
 =========            BORDERS            =========
@@ -334,6 +338,18 @@ and tablet viewports */
   color: #5CDB95;
 }
 
+.case-study-info-header {
+  font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 400;
+  color: #05386B;
+  letter-spacing: 2px;
+}
+
+.case-study-tag {
+  font-family: 'Oswald', sans-serif;
+  font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin: 0.3em 0 0.3em 0;
+}
 /*
 =================================================
 =========             CARDS             =========
