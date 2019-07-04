@@ -359,6 +359,13 @@ and tablet viewports */
   padding-top: 20px; /* This creates some space between the element and the border. */
   border-bottom: 1px solid #0FA3B1; /* This creates the border. Replace black with whatever color you want. */
 }
+
+.case-study-section-sub-header {
+  font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 400;
+  color: #05386B;
+  letter-spacing: 2px;
+}
 .case-study-tag {
   font-family: 'Oswald', sans-serif;
   font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
@@ -406,15 +413,21 @@ and tablet viewports */
 
 /*
 =================================================
-=========        FAPROTECT.HTML         =========
+=========        CASE STUDY PAGES         =========
 =================================================
 */
 
-/* Navigation bar */
+/* Wireframe section */
 
-.nav-container-2 {
-
+.wireframe-container {
+  background-color: #0FA3B1;
 }
+
+.wireframe-img {
+  border-radius: 8px;
+  width: 80%;
+box-shadow: 0 20px 40px 0 rgba(51, 51, 51, 0.4);}
+
 /*
 =================================================
 =========             MOBILE            =========
