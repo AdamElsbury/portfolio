@@ -79,6 +79,10 @@ Padding rules to apply to elements
   padding-bottom: 5%;
 }
 
+.padding-bottom-small {
+  padding-bottom: 2%;
+}
+
 .padding-right-small {
   padding-right: 2%;
 }
@@ -136,6 +140,10 @@ Margin rules to apply to elements
 
 .margin-top-2rem {
   margin-top: 2rem;
+}
+
+.margin-top-small {
+  margin-top: 2%;
 }
 
 .margin-top-large {
