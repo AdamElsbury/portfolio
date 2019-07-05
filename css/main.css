@@ -283,6 +283,10 @@ and tablet viewports */
   color: #5CDB95;
 }
 
+.svg-fit-case-study {
+  max-width: 4em;
+}
+
 .svg-link {
   max-width: 6%;
   width: auto;
@@ -471,8 +475,26 @@ and tablet viewports */
   .grid-flex-end, .grid-flex-start {
     justify-content: center;
   }
+
+  .mobile-padding-only {
+    padding: 5%;
+  }
+
+  .mobile-horizontal-padding-only {
+    padding: 0% 5% 0% 5%;
+  }
 }
 
+/*
+=================================================
+=========              TEXT             =========
+=================================================
+*/
+
+@media screen and ( max-width: 860px ) {
+.text-center-mobile {
+  text-align: center;
+}
 
 /*
 =================================================
@@ -544,6 +566,10 @@ header h1 {
   width: auto;
   height: auto;
   margin: 0;
+}
+
+.svg-fit-standard {
+  max-width: 15%;
 }
 
 .nav-container {
