@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../css/element.css">
   <link rel="stylesheet" href="../css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Cardo|Oswald:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script type="text/javascript" src="../js/main.js"></script>
 </head>
 <body>
@@ -71,7 +72,7 @@
   <main>
     <section class="grid-row padding-top">
       <div class="grid-col-20"></div>
-      <div class="grid-col">
+      <div class="grid-col" data-aos="fade-in">
         <h2 class="case-study-section-header">THE <strong>PROBLEM STATEMENTS</strong></h2>
       </div>
       <div class="grid-col">
@@ -115,7 +116,7 @@
       <div class="grid-col-20"></div>
     </section>
 
-    <section class="grid-row padding-top-small">
+    <section class="grid-row padding-top-small" >
       <div class="grid-col-20"></div>
       <article class="grid-col padding-right-small">
         <img src="../assets/svg/1-border.svg" alt="A number 1 with a circle border" class="svg-fit-standard">
@@ -226,10 +227,10 @@
 
       <section class="grid-row padding-top-small padding-bottom">
         <div class="grid-col-20"></div>
-        <article class="grid-col grid-flex-start">
+        <article class="grid-col grid-flex-start" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
           <img src="../assets/svg/fa-wireframe-1.png" alt="A screenshot of a wireframe from the Low fidelity protoype" class="wireframe-img">
         </article>
-        <article class="grid-col grid-flex-end">
+        <article class="grid-col grid-flex-end" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000">
           <img src="../assets/svg/fa-wireframe-2.png" alt="A screenshot of a wireframe from the Low fidelity protoype" class="wireframe-img margin-top-large">
         </article>
         <div class="grid-col-20"></div>
@@ -373,10 +374,10 @@
 
       <section class="grid-row padding-top-small padding-bottom">
         <div class="grid-col-20"></div>
-        <article class="grid-col grid-flex-start">
+        <article class="grid-col grid-flex-start" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
           <img src="../assets/svg/fa-wireframe-3.jpg" alt="A screenshot of a wireframe from the Low fidelity protoype" class="wireframe-img">
         </article>
-        <article class="grid-col grid-flex-end">
+        <article class="grid-col grid-flex-end" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000">
           <img src="../assets/svg/fa-wireframe-4.jpg" alt="A screenshot of a wireframe from the Low fidelity protoype" class="wireframe-img margin-top-large">
         </article>
         <div class="grid-col-20"></div>
@@ -440,6 +441,9 @@
 
 
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

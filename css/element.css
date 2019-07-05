@@ -203,6 +203,16 @@ Apply specific width to elements.
 .width-80 {
   width: 80%;
 }
+
+/* CSS Selector for the fade in javascript animation */
+
+.is-not-visible {
+  visibility: hidden;
+}
+
+.is-visible {
+  opacity: 1;
+}
 /*
 =================================================
 =========           TEXT INPUT          =========
