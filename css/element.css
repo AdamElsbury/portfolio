@@ -896,43 +896,43 @@ input[type=text]
 /* MARGINS */
 
 @media screen and ( max-width: 500px ) {
-.margin {
+.margin, .margin-mobile-only {
   margin: 1em;
 }
 
-.margin-small {
+.margin-small, .margin-small-mobile-only {
   margin: 0.75em;
 }
 
-.margin-large {
+.margin-large, .margin-large-mobile-only {
   margin: 1.5em;
 }
 
-.margin-vertical {
+.margin-vertical, .margin-vertical-mobile-only {
   margin: 1em 0 1em 0;
 }
 
-.margin-vertical-small {
+.margin-vertical-small, .margin-vertical-small-mobile-only {
   margin: 0.5em 0 0.5em 0;
 }
 
-.margin-vertical-large {
+.margin-vertical-large, .margin-vertical-large-mobile-only {
   margin: 1.5em 0 1.5em 0;
 }
 
-.margin-horizontal {
+.margin-horizontal, .margin-horizontal-mobile-only {
   margin: 0 1em 0 1em;
 }
 
-.margin-horizontal-large {
+.margin-horizontal-large, .margin-horizontal-large-mobile-only {
   margin: 0 1.5em 0 1.5em;
 }
 
-.margin-horizontal-small {
+.margin-horizontal-small, .margin-horizontal-small-mobile-only {
   margin: 0 0.5em 0 0.5em;
 }
 
-.margin-top {
+.margin-top, .margin-top-mobile-only {
   margin-top: 1em;
 }
 
@@ -940,41 +940,47 @@ input[type=text]
   margin-top: 2rem;
 }
 
-.margin-top-small {
+.margin-top-small, .margin-top-small-mobile-only {
   margin-top: 0.5em;
 }
 
-.margin-top-large {
+.margin-top-large, .margin-top-large-mobile-only {
   margin-top: 1.5em;
 }
 
-.margin-bottom {
+.margin-bottom, .margin-bottom-mobile-only {
   margin-bottom: 1em;
 }
 
-.margin-bottom-small {
+.margin-bottom-small, .margin-bottom-small-mobile-only {
   margin-bottom: 0.5em;
 }
 
-.margin-right {
+.margin-bottom-large, .margin-bottom-large-mobile-only {
+  margin-bottom: 1.5em;
+}
+
+.margin-right, .margin-right-mobile-only {
   margin-right: 1em;
 }
 
-.margin-right-small {
+.margin-right-small, .margin-right-small-mobile-only {
   margin-right: 0.5em;
 }
 
-.margin-left {
+.margin-left, .margin-left-mobile-only {
   margin-left: 1em;
 }
 
-.margin-left-small {
+.margin-left-small, .margin-left-small-mobile-only {
   margin-left: 0.5em;
 }
 
 .margin-remove {
   margin: 0 !important;
 }
+
+
 }
 
 /* ///////////////// BUTTONS ///////////////// */
@@ -998,43 +1004,43 @@ input[type=text]
 /* Padding and margin values */
 
 @media ( min-width: 501px ) and ( max-width: 1024px ) {
-.margin {
+.margin, .margin-tablet-only {
   margin: 1.5em;
 }
 
-.margin-small {
+.margin-small, .margin-small-tablet-only {
   margin: 0.75em;
 }
 
-.margin-large {
+.margin-large, .margin-large-tablet-only {
   margin: 2em;
 }
 
-.margin-vertical {
+.margin-vertical, .margin-vertical-tablet-only {
   margin: 1.5em 0 1.5em 0;
 }
 
-.margin-vertical-small {
+.margin-vertical-small, .margin-vertical-small-tablet-only {
   margin: 0.75em 0 0.75em 0;
 }
 
-.margin-vertical-large {
+.margin-vertical-large, .margin-vertical-large-tablet-only {
   margin: 2em 0 2em 0;
 }
 
-.margin-horizontal {
+.margin-horizontal, .margin-horizontal-tablet-only {
   margin: 0 1.5em 0 1.5em;
 }
 
-.margin-horizontal-large {
+.margin-horizontal-large, .margin-horiztonal-large-tablet-only {
   margin: 0 2em 0 2em;
 }
 
-.margin-horizontal-small {
+.margin-horizontal-small, .margin-horizontal-small-tablet-only {
   margin: 0 0.75em 0 0.75em;
 }
 
-.margin-top {
+.margin-top, .margin-top-tablet-only {
   margin-top: 2em;
 }
 
@@ -1042,35 +1048,35 @@ input[type=text]
   margin-top: 2rem;
 }
 
-.margin-top-small {
+.margin-top-small, .margin-top-small-tablet-only {
   margin-top: 0.75em;
 }
 
-.margin-top-large {
+.margin-top-large, .margin-top-large-tablet-only {
   margin-top: 2em;
 }
 
-.margin-bottom {
+.margin-bottom, .margin-bottom-tablet-only {
   margin-bottom: 1.5em;
 }
 
-.margin-bottom-small {
+.margin-bottom-small, .margin-bottom-small-tablet-only {
   margin-bottom: 0.75em;
 }
 
-.margin-right {
+.margin-right, .margin-right-tablet-only {
   margin-right: 1.5em;
 }
 
-.margin-right-small {
+.margin-right-small, .margin-right-small-tablet-only {
   margin-right: 0.75em;
 }
 
-.margin-left {
+.margin-left, .margin-left-tablet-only {
   margin-left: 1.5em;
 }
 
-.margin-left-small {
+.margin-left-small, .margin-left-small-tablet-only {
   margin-left: 0.75em;
 }
 

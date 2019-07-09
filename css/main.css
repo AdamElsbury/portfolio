@@ -576,10 +576,6 @@ header h1 {
   margin: 0;
 }
 
-.svg-fit-standard {
-  max-width: 15%;
-}
-
 .nav-container {
     padding: 5%;
   }
@@ -651,6 +647,11 @@ header h1 {
 .svg-fit-25 {
   max-width: 50%;
 }
+
+.svg-fit-standard {
+  max-width: 15%;
+}
+
 }
 
 @media (min-width: 500px) and ( max-width: 660px ) {
@@ -668,6 +669,18 @@ header h1 {
 .profile-rounded {
   max-width: 30%;
 }
+}
+
+/*
+=================================================
+=========              TABLET           =========
+=================================================
+*/
+
+@media ( min-width: 501px ) and ( max-width: 1024px ) {
+  .svg-fit-standard {
+    max-width: 10%;
+  }
 }
 
 /*
