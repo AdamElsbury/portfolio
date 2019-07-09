@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../css/element.css">
   <link rel="stylesheet" href="../css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Cardo|Oswald:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script type="text/javascript" src="../js/main.js"></script>
 </head>
 <body>
@@ -77,21 +78,20 @@
       </article>
     </article>
     <div class="grid-col grid-flex-center padding-top">
-      <article class="grid-col-70 role-card text-center grid-flex-center margin-remove-mobile-only">
+      <article class="grid-col-70 role-card grid-flex-center margin-remove-mobile-only margin-remove-tablet-only" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
         <div>
-          <h3 class="margin-remove white-text">Front End Development</h3>
-          <img src="../assets/svg/code-white.svg" alt="A desktop computer with an icon that signifies code" class="svg-fit-standard margin">
-          <p class="margin-remove white-text">I can use my front end skills to turn prototypes into fully functional, responsive, SEO oriented front end interfaces with beautiful transitions and effects.</p>
-          <p class="white-text">I also have supplementary knowledge on the back end for basic functionality like querying databases or handling user data submission like passwords and contact forms.</p>
+          <h3 class="white-text">Front End Development</h3>
+          <p class="white-text margin-vertical">I can use my front end skills to turn prototypes into fully functional, responsive, SEO oriented front end interfaces with beautiful transitions and effects.</p>
+          <img src="../assets/svg/code-white.svg" alt="A desktop computer with an icon that signifies code" class="svg-fit-small">
         </div>
       </article>
     </div>
-    <div class="grid-col grid-flex-center">
-      <article class="grid-col-70 role-card text-center grid-flex-center margin-remove-mobile-only">
+    <div class="grid-col grid-flex-center margin-top-tablet-only margin-top-mobile-only">
+      <article class="grid-col-70 role-card grid-flex-center margin-remove-mobile-only margin-remove-tablet-only" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
         <div>
-          <h3 class="margin-remove white-text">UI/UX DESIGNER</h3>
-          <img src="../assets/svg/pencil-case-white.svg" alt="A pencil case with a pencil, paintbrush and ruler." class="svg-fit-standard margin">
-          <p class="margin-remove white-text">I can create beautiful design briefs using an industry standard UX workflow including personas, usability testing, Information architecture and more. I can then bring this technical design to life using my UI design skills for use in prototypes.</p>
+          <h3 class="white-text">UX/UI Design</h3>
+          <p class="white-text margin-vertical">I can create beautiful design briefs using an industry standard UX workflow including personas, usability testing, Information architecture and more. I can then bring this technical design to life using my UI design skills for use in prototypes.</p>
+          <img src="../assets/svg/pencil-case-white.svg" alt="A pencil case with a pencil, paintbrush and ruler." class="svg-fit-small">
         </div>
       </article>
     </div>
@@ -225,7 +225,7 @@
       <a href="https://adamelsbury.github.io/patternlibrary/pages/index.html"><button class="btn-secondary square btn-white">WEBSITE</button></a>
     </article>
     <div class="grid-col text-center">
-      <img src="../assets/svg/element-device.svg" alt="A laptop displaying the Element design system home page" class="svg-fit-hero device">
+      <img src="../assets/svg/element-device.svg" alt="A laptop displaying the Element design system home page" class="svg-fit-hero device margin-bottom-mobile-only">
     </div>
   </section>
 
@@ -286,7 +286,7 @@
       <div class="container">
         <div class="grid-row">
           <div class="grid-col grid-flex-start order-8-mobile">
-            <img src="../assets/svg/options.svg" alt="Two pieces of a jigsaw puzzle" class="svg-fit-60">
+            <img src="../assets/svg/options.svg" alt="Two pieces of a jigsaw puzzle" class="svg-fit-60 margin-bottom-large-mobile-only">
           </div>
           <div class="grid-col-60 text-left text-right order-7-mobile">
             <p class="white-text">Im very passionate about mental health awareness. Mental health has touched people close to my heart and I haven't been able to do much to help because of my degree, but keep an eye out for me running marathons or using my tech skills for charities in the near future!</p>
@@ -328,5 +328,13 @@
   </section>
 </footer>
 </div>
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 </body>
 </html>
