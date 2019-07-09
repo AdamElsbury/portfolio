@@ -980,7 +980,7 @@ input[type=text]
   margin-left: 0.5em;
 }
 
-.margin-remove {
+.margin-remove-mobile-only {
   margin: 0 !important;
 }
 
